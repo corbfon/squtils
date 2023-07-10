@@ -571,7 +571,8 @@ class short_shot:
 
 
 class defend_shot:
-    # This routine drives towards the ball and attempts to hit it towards a given target
+    # This routine drives towards the ball and attempts to hit it away from its net.
+    # If the ball is near the oppopnent net, it can also shoot it.
     # It does not require ball prediction and kinda guesses at where the ball will be on its own
 
     def run(self, agent):
